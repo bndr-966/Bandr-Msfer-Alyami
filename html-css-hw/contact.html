@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Index</a>
+        <a href="about.html">About</a>
+        <a href="table.html">Table</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="container">
+
+        <h1>Contact Me</h1>
+
+        <form>
+
+            <label>Name:</label>
+            <input type="text">
+
+            <label>Email:</label>
+            <input type="email">
+
+            <label>Password:</label>
+            <input type="password">
+
+            <p>Gender:</p>
+
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+
+            <p>Skills:</p>
+
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> Python
+
+            <br><br>
+
+            <label>Country:</label>
+
+            <select>
+                <option>Saudi Arabia</option>
+                <option>UAE</option>
+                <option>Kuwait</option>
+            </select>
+
+            <br><br>
+
+            <label>City:</label>
+
+            <input list="cities">
+
+            <datalist id="cities">
+                <option value="Riyadh">
+                <option value="Jeddah">
+                <option value="Dammam">
+            </datalist>
+
+            <br><br>
+
+            <label>Message:</label>
+
+            <textarea rows="5" cols="30"></textarea>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
